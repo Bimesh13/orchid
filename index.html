@@ -10,59 +10,21 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="icon" href="images/logo.png" type="image/x-icon" />
-    <style>
-      .nav-link.active {
-        color: red !important;
-      }
-
-      .navbar {
-        background-color: white;
-      }
-
-      .navbar-brand img {
-        width: 250px; /* smaller size */
-        height: 100px;
-      }
-
-      /* For very small screens (mobile portrait) */
-      @media (max-width: 992px) {
-        .navbar-brand img {
-          width: 150px; /* even smaller logo */
-          height: 60px;
-        }
-
-        .navbar-brand {
-          font-size: 0.9rem; /* further reduce text size */
-        }
-      }
-
-      @media (max-width: 480px) {
-        .navbar-brand img {
-          width: 100px; /* even smaller logo */
-          height: 40px;
-        }
-
-        .navbar-brand {
-          font-size: 0.8rem; /* further reduce text size */
-        }
-      }
-
-      .vh-100 {
-        height: 100vh;
-      }
-
-      .object-fit-cover {
-        object-fit: cover;
-      }
-    </style>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="images/logo2.png" alt="Cotton Bud Logo" class="me-2" />
+            <img src="images/logo.png" alt="Cotton Bud Logo" />
           </a>
           <button
             class="navbar-toggler"
@@ -83,11 +45,11 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="fw-bold nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="fw-bold nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -97,21 +59,25 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">Cotton Buds</a>
+                    <a class="dropdown-item item-dropdown" href="#"
+                      >Cotton Buds</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Floose Cotton Buds</a>
+                    <a class="dropdown-item item-dropdown" href="#"
+                      >Floose Cotton Buds</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="fw-bold nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="fw-bold nav-link" href="#">Certificates</a>
+                <a class="nav-link" href="#">Certificates</a>
               </li>
               <li class="nav-item">
-                <a class="fw-bold nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -179,7 +145,14 @@
               alt="Product 1"
             />
             <div class="card-body">
-              <h5 class="card-title text-center">Pink Cotton Swabs Box</h5>
+              <h6 class="card-title text-center">Pink Cotton Swabs Box</h6>
+              <p>
+                Tincidunt leo in iaculis pulvinar massa fusce et. Metus tellus
+                quisque condimentum nam a proin magna. Taciti nullam feugiat
+                pulvinar etiam finibus montes. Nascetur congue elit tellus
+                ultrices nullam. Ornare risus tortor lacus, faucibus vestibulum
+                massa hendrerit.
+              </p>
             </div>
           </div>
         </div>
@@ -193,7 +166,14 @@
               alt="Product 2"
             />
             <div class="card-body">
-              <h5 class="card-title text-center">Pink Cotton Swabs Packet</h5>
+              <h6 class="card-title text-center">Pink Cotton Swabs Packet</h6>
+              <p>
+                Tincidunt leo in iaculis pulvinar massa fusce et. Metus tellus
+                quisque condimentum nam a proin magna. Taciti nullam feugiat
+                pulvinar etiam finibus montes. Nascetur congue elit tellus
+                ultrices nullam. Ornare risus tortor lacus, faucibus vestibulum
+                massa hendrerit.
+              </p>
             </div>
           </div>
         </div>
@@ -207,7 +187,14 @@
               alt="Product 3"
             />
             <div class="card-body">
-              <h5 class="card-title text-center">White Cotton Swabs Box</h5>
+              <h6 class="card-title text-center">White Cotton Swabs Box</h6>
+              <p>
+                Tincidunt leo in iaculis pulvinar massa fusce et. Metus tellus
+                quisque condimentum nam a proin magna. Taciti nullam feugiat
+                pulvinar etiam finibus montes. Nascetur congue elit tellus
+                ultrices nullam. Ornare risus tortor lacus, faucibus vestibulum
+                massa hendrerit.
+              </p>
             </div>
           </div>
         </div>
@@ -221,15 +208,37 @@
               alt="Product 4"
             />
             <div class="card-body">
-              <h5 class="card-title text-center">White Cotton Swabs Packet</h5>
+              <h6 class="card-title text-center">White Cotton Swabs Packet</h6>
+              <p>
+                Tincidunt leo in iaculis pulvinar massa fusce et. Metus tellus
+                quisque condimentum nam a proin magna. Taciti nullam feugiat
+                pulvinar etiam finibus montes. Nascetur congue elit tellus
+                ultrices nullam. Ornare risus tortor lacus, faucibus vestibulum
+                massa hendrerit.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="bg-light text-center py-3">
-      <p>&copy; 2025 Cotton Buds Pvt. Lmt.</p>
+    <footer class="bg-footer text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p class="mb-0">&copy; 2025 Orchid Buds. All rights reserved.</p>
+          </div>
+          <div class="col-12 col-md-6 text-md-end">
+            <ul
+              class="list-unstyled d-flex justify-content-center justify-content-md-end mb-0"
+            >
+              <li><a href="#" class="text-white mx-2">Privacy Policy</a></li>
+              <li><a href="#" class="text-white mx-2">Terms of Service</a></li>
+              <li><a href="#" class="text-white mx-2">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
